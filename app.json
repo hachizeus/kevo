@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Clara",
+    "slug": "Clara",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/diamond.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/diamond.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/diamond.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.elitjohns.Clara"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/diamond.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a7134a8b-8723-43ff-89ab-9b91982c9de8"
+      }
+    }
+  }
+}
